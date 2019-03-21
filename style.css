@@ -1,0 +1,173 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-image: url(spqrflag.png);
+	height: 100vh;
+	width: auto;
+	background-size: cover;
+	background-position: center;
+}
+
+.hero
+{
+	position: absolute;
+	width: 200px;
+	margin-left: 865px;
+	margin-top: 70px;
+}
+
+h1
+{
+	color: black;
+	text-transform: lowercase;
+	font-size: 65px;
+	text-align: center;
+	margin-top: 200px;
+}
+
+li
+{
+	float: left;
+	margin-top: 40px;
+}
+
+ul
+{
+	list-style-type: none;
+	margin-left: 750px;
+}
+
+.navbar
+{
+  background-color: #111111;
+  border: none;
+  color: white;
+  padding: 9px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.navbar:hover
+{
+	background-color: #333333
+}
+
+.navbar:active
+{
+	background-color: #333333
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.navbar:focus
+{
+	outline: 0;
+}
+
+.logo
+{
+	position: relative;
+}
+
+.logo .homebutton
+{
+	position: absolute;
+	top: 50%;
+transform: translate(-100%, -50%)
+}
+
+.homebutton
+{
+	float: left;
+	padding: 90px 90px;
+	cursor: pointer;
+	opacity: 0;
+}
+
+.dropbtn
+{
+  background-color: #111111;
+  border: none;
+  color: white;
+  padding: 9px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.listdrop button:hover
+{
+	background-color: #333333
+}
+
+.listdrop button:active
+{
+	background-color: #333333
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.listdrop button:focus
+{
+	outline: 0;
+}
+
+.dropdown-content
+{
+	display: none;
+	position: absolute;
+	background-color: #333333;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	margin: 2px 2px;
+	border-radius: 8px;
+}
+
+.dropdown-content a 
+{
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover 
+{
+	background-color: #111111
+}
+
+.listdrop:hover .dropdown-content 
+{
+  display: block;
+}
+
+.listdrop:hover .dropbtn 
+{
+  background-color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
