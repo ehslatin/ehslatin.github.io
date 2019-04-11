@@ -17,8 +17,8 @@ body
 {
 	position: absolute;
 	width: 200px;
-	margin-left: 865px;
-	margin-top: 70px;
+	margin-left: 43%;
+	margin-top: 12%;
 }
 
 h1
@@ -27,19 +27,17 @@ h1
 	text-transform: lowercase;
 	font-size: 65px;
 	text-align: center;
-	margin-top: 200px;
 }
 
 li
 {
 	float: left;
-	margin-top: 40px;
 }
 
 ul
 {
 	list-style-type: none;
-	margin-left: 750px;
+	margin-left: 35%;
 }
 
 .navbar
