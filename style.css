@@ -15,7 +15,7 @@ body
 
 .hero
 {
-	position: absolute;
+	position: relative;
 	width: 200px;
 	margin-left: 43%;
 	margin-top: 12%;
@@ -23,6 +23,7 @@ body
 
 h1
 {
+	position: absolute;
 	color: black;
 	text-transform: lowercase;
 	font-size: 65px;
