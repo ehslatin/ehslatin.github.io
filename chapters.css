@@ -14,13 +14,8 @@ body
 
 .navbar li
 {
-	float: left;
+	float: right;
 	list-style-type: none;
-}
-
-.navbar ul
-{
-	margin-left: 0%;
 }
 
 .navbar button
