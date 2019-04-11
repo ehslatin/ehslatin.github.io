@@ -7,14 +7,20 @@
 body
 {
 	background-image: url(paper.png);
-	background-size: auto;
+	background-size: 100%;
+	width: 100%;
 }
 
 
 .navbar li
 {
-	float: right;
+	float: left;
 	list-style-type: none;
+}
+
+.navbar ul
+{
+	margin-left: 0%;
 }
 
 .navbar button
@@ -78,23 +84,16 @@ transform: translate(-100%, -50%)
 .all h1
 {
 	position: absolute;
-	text-align: center;
+	float: left;
 	top: 10%;
-	transform: translate(275%, 0%)
+	transform: translate(150%, 0%)
 }
 
 .all .navbar
 {
 	position: absolute;
 	top: 0%;
-	transform: translate(357%, 0%)
-}
-
-p
-{
-	margin-top: 100px;
-	font-size: 22;
-	margin-left: 600px;
+	transform: translate(225%, 0%)
 }
 
 .chaptersbar button
@@ -120,6 +119,6 @@ p
 
 .chaptersbar
 {
-	margin-top: 125px;
-	margin-left: 300px;
+	margin-top: 5%;
+	margin-left: 10%;
 }
