@@ -7,7 +7,8 @@
 body
 {
 	background-image: url(paper.png);
-	background-size: auto;
+	background-size: 100%;
+	width: 100%;
 }
 
 
@@ -79,14 +80,14 @@ transform: translate(-100%, -50%)
 	position: absolute;
 	text-align: center;
 	top: 10%;
-	transform: translate(228%, 0%)
+	transform: translate(130%, 0%)
 }
 
 .all .navbar
 {
 	position: absolute;
 	top: 0%;
-	transform: translate(353%, 0%)
+	transform: translate(221%, 0%)
 }
 
 h1
