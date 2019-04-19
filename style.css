@@ -150,7 +150,9 @@ transform: translate(-100%, -50%)
 
 .listdrop:hover .dropdown-content 
 {
+
   display: block;
+
 }
 
 .listdrop:hover .dropbtn 
