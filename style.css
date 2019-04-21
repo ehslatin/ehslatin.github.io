@@ -160,6 +160,21 @@ transform: translate(-100%, -50%)
   background-color: #333333;
 }
 
+.changelog
+{
+	 background-color: #111111;
+  border: none;
+  color: white;
+  padding: 9px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transform: translate(252%, 1335%)
+}
 
 
 

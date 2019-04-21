@@ -1,0 +1,99 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-image: url(paper.png);
+	background-size: 100%;
+	width: 100%;
+}
+
+.navbar li
+{
+	float: right;
+	list-style-type: none;
+}
+
+.navbar button
+{
+  background-color: #111111;
+  border: none;
+  color: white;
+  padding: 9px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.navbar button:hover
+{
+	background-color: #333333
+}
+
+.navbar button:active
+{
+	background-color: #333333
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.navbar button:focus
+{
+	outline: 0;
+}
+
+.logo
+{
+	position: relative;
+}
+
+.logo .homebutton
+{
+	position: absolute;
+	top: 50%;
+transform: translate(-100%, -50%)
+}
+
+
+.homebutton
+{
+	float: left;
+	padding: 90px 90px;
+	cursor: pointer;
+	opacity: 0;
+}
+
+.all
+{
+	position: relative;
+}
+
+.all h1
+{
+	position: absolute;
+	float: left;
+	top: 10%;
+	transform: translate(150%, 0%)
+}
+
+.all .navbar
+{
+	position: absolute;
+	top: 0%;
+	transform: translate(225%, 0%)
+}
+
+h2
+{
+	font-size: 25;
+	float: left;
+	transform: translate(20%, 0%)
+}
+
