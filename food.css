@@ -11,6 +11,7 @@ body
 	width: 100%;
 }
 
+
 .navbar li
 {
 	float: right;
@@ -32,19 +33,19 @@ body
   border-radius: 8px;
 }
 
-.navbar button:hover, .buttons button:hover
+.navbar button:hover
 {
 	background-color: #333333
 }
 
-.navbar button:active, .buttons button:active
+.navbar button:active
 {
 	background-color: #333333
 	box-shadow: 0 5px #666;
 	transform: translateY(4px);
 }
 
-.navbar button:focus, .buttons button:focus
+.navbar button:focus
 {
 	outline: 0;
 }
@@ -60,7 +61,6 @@ body
 	top: 50%;
 transform: translate(-100%, -50%)
 }
-
 
 .homebutton
 {
@@ -78,48 +78,36 @@ transform: translate(-100%, -50%)
 .all h1
 {
 	position: absolute;
-	float: left;
+	text-align: center;
 	top: 10%;
-	transform: translate(150%, 0%)
+	transform: translate(130%, 0%)
 }
 
 .all .navbar
 {
 	position: absolute;
 	top: 0%;
-	transform: translate(225%, 0%)
+	transform: translate(221%, 0%)
 }
 
-h2
+h1
 {
-	font-size: 100;
+	text-align: center
+}
+
+.words table, th, td
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 25;
+}
+
+.words
+{
+	text-align: left;
+	margin-top: -9.5%;
+	margin-left: 14.75%;
 	float: left;
-	transform: translate(150%, 0%)
-}
-
-.buttons button
-{
-  background-color: #111111;
-  border: none;
-  color: white;
-  padding: 9px 30px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-  margin: 2px 2px;
-  cursor: pointer;
-  border-radius: 8px;
-}
-
-.buttons li
-{
-	list-style-type: none;
-	float: left;
-}
-
-.buttons
-{
-	margin-top: 5%;
-	margin-left: 10%;
+	font-size: 25;
 }
