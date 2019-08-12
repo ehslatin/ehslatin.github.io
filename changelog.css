@@ -87,7 +87,7 @@ transform: translate(-100%, -50%)
 {
 	position: absolute;
 	top: 0%;
-	transform: translate(225%, 0%)
+	transform: translate(221%, 0%)
 }
 
 p
@@ -95,6 +95,6 @@ p
 	border: 2px solid black;
 	float: left;
 	font-size: 35;
-	transform: translate(60%, 0%)
+	transform: translate(20%, 0%)
 }
 
