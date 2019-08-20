@@ -160,7 +160,7 @@ transform: translate(-100%, -50%)
   background-color: #333333;
 }
 
-.changelog
+.info
 {
 	 background-color: #111111;
   border: none;
@@ -173,25 +173,23 @@ transform: translate(-100%, -50%)
   margin: 2px 2px;
   cursor: pointer;
   border-radius: 8px;
-  transform: translate(146%, 1335%)
+  transform: translate(-1245%, 1335%)
 }
 
-.workingon
+p
 {
-	 background-color: #111111;
-  border: none;
-  color: white;
-  padding: 9px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 2px 2px;
-  cursor: pointer;
-  border-radius: 8px;
-  float: left;
-  transform: translate(-657%, 1335%)
+	font-size: 35px;
+  transform: translate(-24%, -580%)	
 }
+
+p1
+{
+	font-size: 25px;
+	position: absolute;
+	transform: translate(689%, -700%)
+}
+
+
 
 
 

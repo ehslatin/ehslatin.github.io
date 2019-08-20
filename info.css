@@ -80,7 +80,7 @@ transform: translate(-100%, -50%)
 	position: absolute;
 	float: left;
 	top: 10%;
-	transform: translate(150%, 0%)
+	transform: translate(450%, 0%)
 }
 
 .all .navbar
@@ -94,7 +94,14 @@ p
 {
 	border: 2px solid black;
 	float: left;
-	font-size: 35;
+	font-size: 30;
 	transform: translate(20%, 0%)
 }
 
+p1
+{
+	border: 2px solid black;
+	float: left;
+	font-size: 30;
+	transform: translate(50%, 0%)
+}
