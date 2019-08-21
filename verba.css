@@ -32,19 +32,19 @@ body
   border-radius: 8px;
 }
 
-.navbar button:hover, .chaptersbar button:hover
+.navbar button:hover
 {
 	background-color: #333333
 }
 
-.navbar button:active, .chaptersbar button:active
+.navbar button:active
 {
 	background-color: #333333
 	box-shadow: 0 5px #666;
 	transform: translateY(4px);
 }
 
-.navbar button:focus, .chaptersbar button:focus
+.navbar button:focus
 {
 	outline: 0;
 }
@@ -80,7 +80,7 @@ transform: translate(-100%, -50%)
 	position: absolute;
 	float: left;
 	top: 10%;
-	transform: translate(150%, 0%)
+	transform: translate(100%, 0%)
 }
 
 .all .navbar
@@ -90,36 +90,20 @@ transform: translate(-100%, -50%)
 	transform: translate(225%, 0%)
 }
 
-h2
+p
 {
-	font-size: 100;
-	float: left;
-	transform: translate(150%, 0%)
+	font-size: 45;
+	position: absolute;
+	border: 2px solid black;
+	text-align: center;
+	transform: translate(160%, -80%)
 }
 
-.chaptersbar button
+p1
 {
-  background-color: #111111;
-  border: none;
-  color: white;
-  padding: 9px 30px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-  margin: 2px 2px;
-  cursor: pointer;
-  border-radius: 8px;
-}
-
-.chaptersbar li
-{
-	list-style-type: none;
-	float: left;
-}
-
-.chaptersbar
-{
-	margin-top: 5%;
-	margin-left: 5.5%;
+	font-size: 27;
+	position: absolute;
+	border: 2px solid black;
+	text-align: center;
+	transform: translate(60%, 540%)
 }
